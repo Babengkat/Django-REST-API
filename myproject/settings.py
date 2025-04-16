@@ -16,7 +16,7 @@ import os
 
 if os.environ.get('RENDER'):
     DEBUG = False
-    
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -28,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k+)463c3y(68e0tb^k)a(752gv5!5o2jc(7voi7-xu=3#5isy3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
